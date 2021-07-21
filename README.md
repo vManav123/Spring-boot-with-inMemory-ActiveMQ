@@ -36,6 +36,14 @@ public class ActiveMQConfig {
 }
 ```
 
+## Properties
+add active mq properties and server port
+```javascript
+spring.activemq.in-memory=true
+spring.activemq.pool.enabled=false
+server.port=9090
+```
+
 ## Producer
 Create Producer for publishing the message
 ```javascript
